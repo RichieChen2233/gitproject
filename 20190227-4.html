@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+		.timeline-section{
+			position: relative;
+		}
+		.timeline-section:after{
+			content: "";
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			width: 3px;
+			background-color: #ccc;
+			left: 50%;
+			transform: translateX(-50%);
+		}
+		.timeline-pointer{
+			position: relative;
+		}
+		.timeline-pointer:after{
+			content: "";
+			position: absolute;
+			top: 0;
+			width: 10px;
+			height: 10px;
+			background-color: white;
+			left: 50%;
+			transform: translateX(-50%);
+			z-index: 1;
+			border: 3px solid #ccc;
+			border-radius: 50%;
+		}
+
+		@media (max-width: 576px){
+			.timeline-section:after, .timeline-pointer:after{
+				display: none;
+			}
+			body{
+				background-color: #544D4D;
+				color: #F2F1F1
+			}
+		}
+
+		@media (min-width: 576px) and (max-width: 768px){
+			body{
+				background-color: #9B952A;
+				color: #F2F1F1
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 992px){
+			body{
+				background-color: #74770D;
+				color: #F2F1F1
+			}			
+		}
+
+		@media (min-width: 992px) and (max-width: 1200px){
+			body{
+				background-color: #A0C3A2;
+				color: #F77E20
+			}
+		}
+
+		@media (min-width: 1200px){
+			body{
+				background-color: #F33103;
+				color: #F2F1F1
+			}	
+		}
+    </style>
+  </head>
+  <body>
+  	<div class="timeline-section">
+		<div class="container">
+			<div class="row timeline-pointer">
+				<div class="col-sm-6">
+					<div class="text">
+						<h2 class="pt-4">通訊博客醫學商家</h2>
+						<p class="pt-2">積分進口下去手上持續項目市政府神秘想像趨勢學，客人大人物流。</p>
+						<p class="pt-3">提交點此新增他不登陸成人二十得到可惜頭髮雙方醫生避免包裝儘管，辦公每日求助國內外促進上來價值推，一。</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/car01.png" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+			
+			<div class="row timeline-pointer">
+				<div class="col-sm-6 order-sm-2">
+					<div class="text">
+						<h2 class="pt-4">通訊博客醫學商家</h2>
+						<p class="pt-2">積分進口下去手上持續項目市政府神秘想像趨勢學，客人大人物流。</p>
+						<p class="pt-3">提交點此新增他不登陸成人二十得到可惜頭髮雙方醫生避免包裝儘管，辦公每日求助國內外促進上來價值推，一。</p>
+					</div>
+				</div>
+				<div class="col-sm-6 order-sm-1">
+					<div class="pimg">
+						<img src="img/car02.png" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="row  timeline-pointer">
+				<div class="col-sm-6">
+					<div class="text">
+						<h2 class="pt-4">通訊博客醫學商家</h2>
+						<p class="pt-2">積分進口下去手上持續項目市政府神秘想像趨勢學，客人大人物流。</p>
+						<p class="pt-3">提交點此新增他不登陸成人二十得到可惜頭髮雙方醫生避免包裝儘管，辦公每日求助國內外促進上來價值推，一。</p>
+					</div>
+				</div>
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/car03.png" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="row  timeline-pointer">
+				<div class="col-sm-6 order-sm-2">
+					<div class="text">
+						<h2 class="pt-4">通訊博客醫學商家</h2>
+						<p class="pt-2">積分進口下去手上持續項目市政府神秘想像趨勢學，客人大人物流。</p>
+						<p class="pt-3">提交點此新增他不登陸成人二十得到可惜頭髮雙方醫生避免包裝儘管，辦公每日求助國內外促進上來價值推，一。</p>
+					</div>
+				</div>
+				<div class="col-sm-6 order-sm-1">
+					<div class="pimg">
+						<img src="img/car04.png" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+		</div>   		
+  	</div>
+ 		
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+  </body>
+</html>

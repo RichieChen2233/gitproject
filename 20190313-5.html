@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css" integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+    <style>
+    	.bg-cover{
+    		background-position: center center;
+    		background-repeat: no-repeat;
+    		-webkit-background-size: cover;
+    		background-size: cover;
+    	}
+    	.ptext{
+    		padding-top: 10%;
+    	}
+    	.timeline-section{
+    		position: relative;
+    	}
+    	.timeline-section:after{
+    		position: absolute;
+    		content: "";
+    		top: 0;
+    		bottom: 0;
+    		width: 5px;
+    		background-color: #ccc;
+    		left: 50%;
+    		transform: translateX(-50%);
+    	}
+    	.timeline-pointer-section{
+    		position: relative;
+    	}
+    	.timeline-pointer-section:after{
+    		position: absolute;
+    		content: "";
+    		top: 0;
+    		bottom: 0;
+    		width: 15px;
+    		height: 15px;
+    		background-color: white;
+    		border: 3px solid #ccc;
+    		border-radius: 50%;
+    		left: 50%;
+    		transform: translateX(-50%);
+    		z-index: 1;
+    	}
+    	@media (max-width: 576px){
+    		.timeline-section:after, .timeline-pointer-section:after{
+    			display: none;
+    		}
+    	}
+    	.footer{
+    		background-color: black;
+    		color: white;
+    		font-size: 18px;
+    		font-weight: bold;
+    		padding-top: 5px;
+    		padding-bottom: 5px;
+    		margin-bottom: 2px;
+    	}
+    </style>
+  </head>
+  <body>
+<div class="bd-example">
+  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item bg-cover active" style="background-image: url(img/family01.jpg); height: 200px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>
+      <div class="carousel-item bg-cover" style="background-image: url(img/family02.jpg); height: 200px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div> 
+      <div class="carousel-item bg-cover" style="background-image: url(img/family03.jpg); height: 200px">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>First slide label</h5>
+          <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+        </div>
+      </div>           
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div>
+</div>
+
+	<div class="container">
+		<div class="row">
+			<ol class="breadcrumb bg-light">
+				<li class="breadcrumb-item"><a href="#">首頁</a></li>
+				<li class="breadcrumb-item"><a href="20190313-4.html">分店位址</a></li>
+				<li class="breadcrumb-item">設計師介紹</li>
+			</ol>
+		</div>
+		<div class="timeline-section">
+			<div class="row timeline-pointer-section">
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/baker02.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="ptext mt-3">
+						<h2>XXX 設計師</h2>
+						<h3>專長: 美術編排, 成是撰寫, XXXXX</h3>
+						<h4>學經歷: 10年經驗</h4>
+						<p>簡介: 願意依靠結果高中畫面是個動態男生機關妹妹請大家發貼畢，鐵通地方福州三大老師好好即可竟然孤獨設備許，位元查看天氣贏得已被告知承諾開發出台政府上市小心才是工，型號適應眼前讓我玻璃接，實踐思想病人改變擁有數據最，你知道分配安排進去對話格，後果性能簡介好好還不返回。</p>
+					</div>
+				</div>
+			</div>
+			<div class="row flex-row-reverse timeline-pointer-section">
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/baker03.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="ptext mt-3">
+						<h2>XXX 設計師</h2>
+						<h3>專長: 美術編排, 成是撰寫, XXXXX</h3>
+						<h4>學經歷: 10年經驗</h4>
+						<p>簡介: 願意依靠結果高中畫面是個動態男生機關妹妹請大家發貼畢，鐵通地方福州三大老師好好即可竟然孤獨設備許，位元查看天氣贏得已被告知承諾開發出台政府上市小心才是工，型號適應眼前讓我玻璃接，實踐思想病人改變擁有數據最，你知道分配安排進去對話格，後果性能簡介好好還不返回。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row timeline-pointer-section">
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/baker03.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="ptext mt-3">
+						<h2>XXX 設計師</h2>
+						<h3>專長: 美術編排, 成是撰寫, XXXXX</h3>
+						<h4>學經歷: 10年經驗</h4>
+						<p>簡介: 願意依靠結果高中畫面是個動態男生機關妹妹請大家發貼畢，鐵通地方福州三大老師好好即可竟然孤獨設備許，位元查看天氣贏得已被告知承諾開發出台政府上市小心才是工，型號適應眼前讓我玻璃接，實踐思想病人改變擁有數據最，你知道分配安排進去對話格，後果性能簡介好好還不返回。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row flex-row-reverse timeline-pointer-section">
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/baker04.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="ptext mt-3">
+						<h2>XXX 設計師</h2>
+						<h3>專長: 美術編排, 成是撰寫, XXXXX</h3>
+						<h4>學經歷: 10年經驗</h4>
+						<p>簡介: 願意依靠結果高中畫面是個動態男生機關妹妹請大家發貼畢，鐵通地方福州三大老師好好即可竟然孤獨設備許，位元查看天氣贏得已被告知承諾開發出台政府上市小心才是工，型號適應眼前讓我玻璃接，實踐思想病人改變擁有數據最，你知道分配安排進去對話格，後果性能簡介好好還不返回。</p>
+					</div>
+				</div>
+			</div>
+
+			<div class="row timeline-pointer-section">
+				<div class="col-sm-6">
+					<div class="pimg">
+						<img src="img/baker04.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+				<div class="col-sm-6 text-center">
+					<div class="ptext mt-3">
+						<h2>XXX 設計師</h2>
+						<h3>專長: 美術編排, 成是撰寫, XXXXX</h3>
+						<h4>學經歷: 10年經驗</h4>
+						<p>簡介: 願意依靠結果高中畫面是個動態男生機關妹妹請大家發貼畢，鐵通地方福州三大老師好好即可竟然孤獨設備許，位元查看天氣贏得已被告知承諾開發出台政府上市小心才是工，型號適應眼前讓我玻璃接，實踐思想病人改變擁有數據最，你知道分配安排進去對話格，後果性能簡介好好還不返回。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+<div class="footer text-center mt-2">
+	行銷班版權所有 2019.03. tel: 23592181
+</div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/js/bootstrap.min.js" integrity="sha384-7aThvCh9TypR7fIc2HV4O/nFMVCBwyIUKL8XCtKE+8xgCgl/PQGuFsvShjr74PBp" crossorigin="anonymous"></script>
+  </body>
+</html>
